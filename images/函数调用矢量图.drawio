@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T02:23:35.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="p9dTrEbmByHi_UOofyt5" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T10:39:23.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EE7DHEbhsaD8sNxXAkkn" version="24.4.8" type="github">
   <diagram name="第 1 页" id="PW9g4ghxFXJWMWBYfiqS">
-    <mxGraphModel dx="2203" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2203" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-1" value="teco_slave_conv2d_wgrad_&lt;span style=&quot;background-color: initial;&quot;&gt;reform_v1_fp16_to_fp32&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="390" width="150" height="110" as="geometry" />
+          <mxGeometry x="20" y="390" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-2" value="init_bitmap" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="310" y="320" width="120" height="20" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-3" value="memcpy" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="csPipg4MfPvLJTQ6KdWC-4" target="csPipg4MfPvLJTQ6KdWC-7">
           <mxGeometry relative="1" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="780" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-19" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;memset&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="310" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="csPipg4MfPvLJTQ6KdWC-22" target="csPipg4MfPvLJTQ6KdWC-23">
           <mxGeometry relative="1" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-22" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;exit&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="310" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="csPipg4MfPvLJTQ6KdWC-23" target="csPipg4MfPvLJTQ6KdWC-25">
           <mxGeometry relative="1" as="geometry" />
@@ -92,7 +92,7 @@
           <mxGeometry x="770" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-30" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;ReduceSumAcrossThreads&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="310" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="csPipg4MfPvLJTQ6KdWC-32" target="csPipg4MfPvLJTQ6KdWC-3">
           <mxGeometry relative="1" as="geometry" />
@@ -119,7 +119,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-40" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;conv2DBackwardWgradReformV1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.117;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="csPipg4MfPvLJTQ6KdWC-40" target="csPipg4MfPvLJTQ6KdWC-5">
           <mxGeometry relative="1" as="geometry" />
@@ -131,10 +131,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-47" value="1）支持放大、缩小及全方位的拖动&lt;br&gt;2）点击线条会突出显示起始--&amp;gt;终止过程&lt;br&gt;3）判断单函数是否产生cachemiss，通过End Addr -&amp;nbsp;Begin Addr 的值是否大于32决定，当大于32时，对图中单个函数的线框标红&lt;br&gt;4）两个函数导致的cachemiss，会将线条标红，并将整个调用流突出显示，默认情况下不会显示红色加粗线条，有cachemiss的函数会字体设置为红色，点击后会显示加粗线条。" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="10" y="180" width="600" height="100" as="geometry" />
+          <mxGeometry x="10" y="200" width="600" height="100" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-50" value="遗留问题：&lt;br&gt;1.路径的枚举算法。&lt;div&gt;2.需要找道永提供测试场景，提供关系复杂的数据。&lt;/div&gt;&lt;div&gt;3.线框默认星空灰&lt;/div&gt;&lt;div&gt;4.线框的大小根据函数大小决定&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="710" y="150" width="370" height="90" as="geometry" />
+          <mxGeometry x="645" y="205" width="370" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
