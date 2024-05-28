@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T01:37:50.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="BsQ0EN5bAbwLjVSMv5_j" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T02:23:35.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="p9dTrEbmByHi_UOofyt5" version="24.4.8" type="github">
   <diagram name="第 1 页" id="PW9g4ghxFXJWMWBYfiqS">
-    <mxGraphModel dx="1376" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2203" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,11 +25,11 @@
         <mxCell id="csPipg4MfPvLJTQ6KdWC-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="csPipg4MfPvLJTQ6KdWC-1" target="csPipg4MfPvLJTQ6KdWC-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="csPipg4MfPvLJTQ6KdWC-1" value="teco_slave_conv2d_wgrad_&lt;div&gt;reform_v1_fp16_to_fp32&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="csPipg4MfPvLJTQ6KdWC-1" value="teco_slave_conv2d_wgrad_&lt;span style=&quot;background-color: initial;&quot;&gt;reform_v1_fp16_to_fp32&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="390" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-2" value="init_bitmap" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="310" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="320" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeWidth=3;" edge="1" parent="1" source="csPipg4MfPvLJTQ6KdWC-3" target="csPipg4MfPvLJTQ6KdWC-4">
           <mxGeometry relative="1" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-4" value="simd_memcpy" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="540" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="410" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-5" value="libos_ldm_malloc" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF3333;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="540" y="525" width="120" height="60" as="geometry" />
@@ -58,7 +58,7 @@
         <mxCell id="csPipg4MfPvLJTQ6KdWC-6" value="libos_ldm_free" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF3333;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="540" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="csPipg4MfPvLJTQ6KdWC-7" value="&lt;font color=&quot;#ff3333&quot;&gt;word_aligned_memcpy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="csPipg4MfPvLJTQ6KdWC-7" value="word_aligned_memcpy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B20000;strokeWidth=2;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="780" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="csPipg4MfPvLJTQ6KdWC-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#B20000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;strokeWidth=3;fillColor=#e51400;" edge="1" parent="1" source="csPipg4MfPvLJTQ6KdWC-8" target="csPipg4MfPvLJTQ6KdWC-7">
@@ -130,8 +130,11 @@
         <mxCell id="csPipg4MfPvLJTQ6KdWC-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.083;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="csPipg4MfPvLJTQ6KdWC-40" target="csPipg4MfPvLJTQ6KdWC-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="csPipg4MfPvLJTQ6KdWC-47" value="1）支持放大、缩小及全方位的拖动&lt;br&gt;2）点击线条会突出显示起始--&amp;gt;终止过程&lt;br&gt;3）判断单函数是否产生cachemiss，通过End Addr -&amp;nbsp;Begin Addr 的值是否大于32决定，当大于32时，对图中单个函数的背景色标红&lt;br&gt;4）两个函数导致的cachemiss，会将线条标红，并将整个调用流突出显示" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;align=left;" vertex="1" parent="1">
+        <mxCell id="csPipg4MfPvLJTQ6KdWC-47" value="1）支持放大、缩小及全方位的拖动&lt;br&gt;2）点击线条会突出显示起始--&amp;gt;终止过程&lt;br&gt;3）判断单函数是否产生cachemiss，通过End Addr -&amp;nbsp;Begin Addr 的值是否大于32决定，当大于32时，对图中单个函数的线框标红&lt;br&gt;4）两个函数导致的cachemiss，会将线条标红，并将整个调用流突出显示，默认情况下不会显示红色加粗线条，有cachemiss的函数会字体设置为红色，点击后会显示加粗线条。" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="10" y="180" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="csPipg4MfPvLJTQ6KdWC-50" value="遗留问题：&lt;br&gt;1.路径的枚举算法。&lt;div&gt;2.需要找道永提供测试场景，提供关系复杂的数据。&lt;/div&gt;&lt;div&gt;3.线框默认星空灰&lt;/div&gt;&lt;div&gt;4.线框的大小根据函数大小决定&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="710" y="150" width="370" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
